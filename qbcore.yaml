@@ -85,6 +85,11 @@ tasks:
     ref: master
     src: https://github.com/ECRP-Server/LegacyFuel
 
+  - action: download_github
+    dest: ./resources/[standalone]/illenium-appearance
+    ref: master
+    src: https://github.com/ECRP-Server/illenium-appearance
+
   - action: waste_time # prevent github throttling
     seconds: 10
 
